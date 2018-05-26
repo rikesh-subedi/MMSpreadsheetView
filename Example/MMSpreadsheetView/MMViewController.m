@@ -19,11 +19,10 @@
 // THE SOFTWARE.
 
 #import "MMViewController.h"
-#import "MMSpreadsheetView.h"
 #import "MMGridCell.h"
 #import "MMTopRowCell.h"
 #import "MMLeftColumnCell.h"
-#import "NSIndexPath+MMSpreadsheetView.h"
+#import "MMSpreadsheetView-Swift.h"
 
 @interface MMViewController () <MMSpreadsheetViewDataSource, MMSpreadsheetViewDelegate>
 

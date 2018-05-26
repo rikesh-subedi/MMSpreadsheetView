@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		1732D67317DA7C9C000C0659 /* MMTopRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1732D67217DA7C9C000C0659 /* MMTopRowCell.m */; };
 		1732D67617DA7CB2000C0659 /* MMLeftColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1732D67517DA7CB2000C0659 /* MMLeftColumnCell.m */; };
-		1767376017C6A85100DDFE2D /* MMSpreadsheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767375F17C6A85100DDFE2D /* MMSpreadsheetView.m */; };
 		1767376317C7E7A100DDFE2D /* MMGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767376217C7E7A100DDFE2D /* MMGridLayout.m */; };
-		17803AD417F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17803AD317F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.m */; };
 		17A2322117FF506E00AE6A6A /* mm_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2321F17FF506E00AE6A6A /* mm_logo.png */; };
 		17A2322217FF506E00AE6A6A /* mm_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A2322017FF506E00AE6A6A /* mm_logo@2x.png */; };
 		17EEF65017BAA6D6003233B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EEF64F17BAA6D6003233B5 /* UIKit.framework */; };
@@ -25,6 +23,7 @@
 		17EEF66617BAA6D6003233B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17EEF66517BAA6D6003233B5 /* Default-568h@2x.png */; };
 		17EEF67417BAC0BC003233B5 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EEF67317BAC0BC003233B5 /* MMViewController.m */; };
 		17EEF68317BB4452003233B5 /* MMGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EEF68217BB4452003233B5 /* MMGridCell.m */; };
+		AF64512C20B9456100352D09 /* MMSpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF64512B20B9456100352D09 /* MMSpreadsheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +31,8 @@
 		1732D67217DA7C9C000C0659 /* MMTopRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMTopRowCell.m; path = MMSpreadsheetView/MMTopRowCell.m; sourceTree = "<group>"; };
 		1732D67417DA7CB2000C0659 /* MMLeftColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMLeftColumnCell.h; path = MMSpreadsheetView/MMLeftColumnCell.h; sourceTree = "<group>"; };
 		1732D67517DA7CB2000C0659 /* MMLeftColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMLeftColumnCell.m; path = MMSpreadsheetView/MMLeftColumnCell.m; sourceTree = "<group>"; };
-		1767375E17C6A85100DDFE2D /* MMSpreadsheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMSpreadsheetView.h; path = ../../MMSpreadsheetView/MMSpreadsheetView.h; sourceTree = "<group>"; };
-		1767375F17C6A85100DDFE2D /* MMSpreadsheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMSpreadsheetView.m; path = ../../MMSpreadsheetView/MMSpreadsheetView.m; sourceTree = "<group>"; };
 		1767376117C7E7A100DDFE2D /* MMGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMGridLayout.h; path = ../../MMSpreadsheetView/MMGridLayout.h; sourceTree = "<group>"; };
 		1767376217C7E7A100DDFE2D /* MMGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMGridLayout.m; path = ../../MMSpreadsheetView/MMGridLayout.m; sourceTree = "<group>"; };
-		17803AD217F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+MMSpreadsheetView.h"; path = "../../MMSpreadsheetView/NSIndexPath+MMSpreadsheetView.h"; sourceTree = "<group>"; };
-		17803AD317F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+MMSpreadsheetView.m"; path = "../../MMSpreadsheetView/NSIndexPath+MMSpreadsheetView.m"; sourceTree = "<group>"; };
 		17A2321F17FF506E00AE6A6A /* mm_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm_logo.png; sourceTree = "<group>"; };
 		17A2322017FF506E00AE6A6A /* mm_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mm_logo@2x.png"; sourceTree = "<group>"; };
 		17EEF64C17BAA6D6003233B5 /* MMSpreadsheetView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSpreadsheetView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +52,8 @@
 		17EEF67317BAC0BC003233B5 /* MMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMViewController.m; path = MMSpreadsheetView/MMViewController.m; sourceTree = "<group>"; };
 		17EEF68117BB4452003233B5 /* MMGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMGridCell.h; path = MMSpreadsheetView/MMGridCell.h; sourceTree = "<group>"; };
 		17EEF68217BB4452003233B5 /* MMGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMGridCell.m; path = MMSpreadsheetView/MMGridCell.m; sourceTree = "<group>"; };
+		AF64512B20B9456100352D09 /* MMSpreadsheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSpreadsheetView.swift; sourceTree = "<group>"; };
+		AF64512D20B9457500352D09 /* MMSpreadsheetView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMSpreadsheetView-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +119,10 @@
 		17EEF65517BAA6D6003233B5 /* MMSpreadsheetView */ = {
 			isa = PBXGroup;
 			children = (
-				1767375E17C6A85100DDFE2D /* MMSpreadsheetView.h */,
-				1767375F17C6A85100DDFE2D /* MMSpreadsheetView.m */,
+				AF64512D20B9457500352D09 /* MMSpreadsheetView-Bridging-Header.h */,
+				AF64512B20B9456100352D09 /* MMSpreadsheetView.swift */,
 				1767376117C7E7A100DDFE2D /* MMGridLayout.h */,
 				1767376217C7E7A100DDFE2D /* MMGridLayout.m */,
-				17803AD217F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.h */,
-				17803AD317F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.m */,
 			);
 			path = MMSpreadsheetView;
 			sourceTree = "<group>";
@@ -178,6 +173,11 @@
 				CLASSPREFIX = MM;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Mutual Mobile";
+				TargetAttributes = {
+					17EEF64B17BAA6D6003233B5 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 17EEF64717BAA6D6003233B5 /* Build configuration list for PBXProject "MMSpreadsheetView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,11 +221,10 @@
 				17EEF66017BAA6D6003233B5 /* MMAppDelegate.m in Sources */,
 				17EEF67417BAC0BC003233B5 /* MMViewController.m in Sources */,
 				17EEF68317BB4452003233B5 /* MMGridCell.m in Sources */,
-				1767376017C6A85100DDFE2D /* MMSpreadsheetView.m in Sources */,
 				1767376317C7E7A100DDFE2D /* MMGridLayout.m in Sources */,
 				1732D67317DA7C9C000C0659 /* MMTopRowCell.m in Sources */,
+				AF64512C20B9456100352D09 /* MMSpreadsheetView.swift in Sources */,
 				1732D67617DA7CB2000C0659 /* MMLeftColumnCell.m in Sources */,
-				17803AD417F1ED8500553B58 /* NSIndexPath+MMSpreadsheetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +303,17 @@
 		17EEF67017BAA6D6003233B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMSpreadsheetView/MMSpreadsheetView-Prefix.pch";
 				INFOPLIST_FILE = "MMSpreadsheetView/MMSpreadsheetView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MMSpreadsheetView/MMSpreadsheetView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -315,10 +321,16 @@
 		17EEF67117BAA6D6003233B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMSpreadsheetView/MMSpreadsheetView-Prefix.pch";
 				INFOPLIST_FILE = "MMSpreadsheetView/MMSpreadsheetView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MMSpreadsheetView/MMSpreadsheetView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
